@@ -1,0 +1,27 @@
+{
+  "proyectFrontApp": {
+    "autor": {
+      "home": {
+        "title": "Autors",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Autor",
+        "createOrEditLabel": "Créer ou éditer un Autor",
+        "notFound": "Aucun Autor trouvé"
+      },
+      "created": "Un nouveau Autor a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Autor avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Autor avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Autor {{ id }} ?"
+      },
+      "detail": {
+        "title": "Autor"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "correo": "Correo",
+      "pais": "Pais",
+      "libro": "Libro"
+    }
+  }
+}

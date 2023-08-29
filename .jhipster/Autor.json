@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20230824195002",
+  "dto": "mapstruct",
+  "entityTableName": "autor",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "correo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pais",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Autor",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "libro",
+      "relationshipName": "libro",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

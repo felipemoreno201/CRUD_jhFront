@@ -1,0 +1,50 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="libro">
+      <h2 data-cy="libroDetailsHeading"><span jhiTranslate="proyectFrontApp.libro.detail.title">Libro</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ libro.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="proyectFrontApp.libro.titulo">Titulo</span></dt>
+        <dd>
+          <span>{{ libro.titulo }}</span>
+        </dd>
+        <dt><span jhiTranslate="proyectFrontApp.libro.descripcion">Descripcion</span></dt>
+        <dd>
+          <span>{{ libro.descripcion }}</span>
+        </dd>
+        <dt><span jhiTranslate="proyectFrontApp.libro.precio">Precio</span></dt>
+        <dd>
+          <span>{{ libro.precio }}</span>
+        </dd>
+        <dt><span jhiTranslate="proyectFrontApp.libro.categoria">Categoria</span></dt>
+        <dd>
+          <span>{{ libro.categoria }}</span>
+        </dd>
+        <dt><span jhiTranslate="proyectFrontApp.libro.autor">Autor</span></dt>
+        <dd>
+          <div *ngIf="libro.autor">
+            <a [routerLink]="['/autor', libro.autor.id, 'view']">{{ libro.autor.id }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Volver</span>
+      </button>
+
+      <button type="button" [routerLink]="['/libro', libro.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Editar</span>
+      </button>
+    </div>
+  </div>
+</div>

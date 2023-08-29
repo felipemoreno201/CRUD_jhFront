@@ -1,0 +1,29 @@
+{
+  "proyectFrontApp": {
+    "venta": {
+      "home": {
+        "title": "Ventas",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Venta",
+        "createOrEditLabel": "Créer ou éditer un Venta",
+        "notFound": "Aucun Venta trouvé"
+      },
+      "created": "Un nouveau Venta a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Venta avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Venta avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Venta {{ id }} ?"
+      },
+      "detail": {
+        "title": "Venta"
+      },
+      "id": "ID",
+      "folio": "Folio",
+      "fecha": "Fecha",
+      "subtotal": "Subtotal",
+      "impuesto": "Impuesto",
+      "total": "Total",
+      "cliente": "Cliente"
+    }
+  }
+}

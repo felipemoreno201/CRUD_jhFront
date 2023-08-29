@@ -1,0 +1,28 @@
+{
+  "proyectFrontApp": {
+    "libro": {
+      "home": {
+        "title": "Libros",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Libro",
+        "createOrEditLabel": "Créer ou éditer un Libro",
+        "notFound": "Aucun Libro trouvé"
+      },
+      "created": "Un nouveau Libro a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Libro avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Libro avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Libro {{ id }} ?"
+      },
+      "detail": {
+        "title": "Libro"
+      },
+      "id": "ID",
+      "titulo": "Titulo",
+      "descripcion": "Descripcion",
+      "precio": "Precio",
+      "categoria": "Categoria",
+      "autor": "Autor"
+    }
+  }
+}
